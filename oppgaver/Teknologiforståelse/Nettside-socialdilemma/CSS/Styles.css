@@ -1,0 +1,107 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image:url("../Mediefiler/full.jpg");
+    background-position: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#1abc9c;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 10px solid #1abc9c;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 18px;
+  }
+.grid-header {
+  background-color: #19d898;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+  
+}
+.header1 {
+  background-color: #19d898;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+}
+.video-header {
+  background-color: #19d898;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+}
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 56.25%;
+    
+}
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 20px;
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+ }
+}
