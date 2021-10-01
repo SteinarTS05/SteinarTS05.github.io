@@ -5,7 +5,7 @@
 
 nav {
   position: relative;
-  background: rgba(255, 255, 255, 0.671);
+  background: rgba(151, 252, 254, 0.699);
 }
 
 ul {
@@ -71,14 +71,14 @@ body {
       "header header header header header header header header"
       "mainL main main main main main main mainR"
       "footer footer footer footer footer footer footer footer";
-      column-gap: 20px;  
+      
   }
 .item-header {
     grid-area: header;
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.671);
-    font-size: 30px;
-    margin-top: 8px;
+    background-color:rgba(255, 255, 255, 0.781);
+    font-size: 35px;
+    margin-top: 5px;
 }
 
 .item-top {
@@ -89,13 +89,15 @@ body {
     grid-area: mainR;
     background-color:rgba(255, 255, 255, 0.671);
     padding: 20px;
-    font-size: 20px
+    font-size: 20px;
+    margin-top: 5px;
 }
 .item-mainL {
   grid-area: mainL;
   background-color:rgba(255, 255, 255, 0.671);
   padding: 20px;
   font-size: 11px;
+  margin-top: 5px;
 }
 .item-footer {
   grid-area: footer;
@@ -103,5 +105,10 @@ body {
   padding: 20px;
   font-size: 20px;
   text-align: center;
-  
+}
+.item-main {
+  grid-area: main;
+  padding: 20px;
+  background-color:rgba(255, 255, 255, 0.671);
+  margin: 5px
 }
