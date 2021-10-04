@@ -94,6 +94,9 @@ body {
     grid-area: top;
     
 }
+.item-iframe {
+    grid-area: main;
+}
 .item-mainR {
     grid-area: mainR;
     background-color:rgba(255, 255, 255, 0.671);
