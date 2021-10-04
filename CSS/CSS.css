@@ -95,7 +95,8 @@ body {
     
 }
 .item-iframe {
-    grid-area: main;
+    grid-column: 1/9;
+    grid-row: 3/4;
 }
 .item-mainR {
     grid-area: mainR;
