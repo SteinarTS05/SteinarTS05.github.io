@@ -67,7 +67,7 @@ body { background-color: #3E8989; }
 .item-main {
   grid-area: main;
   padding: 20px;
-  background-color:#7F9DA2;
+  background-color:#79a1a8;
   margin-top: 5px;
   margin-left: 5px;
   margin-right: 5px;
@@ -90,7 +90,7 @@ body { background-color: #3E8989; }
 .item-header {
     grid-area: header;
     text-align: center;
-    background-color: #5d7f85;
+    background-color: #56939e;
     font-size: 35px;
     margin-top: 5px;
 }
@@ -105,14 +105,14 @@ body { background-color: #3E8989; }
 }
 .item-mainR {
     grid-area: mainR;
-    background-color:#7F9DA2;
+    background-color:#79a1a8;
     padding: 20px;
     font-size: 20px;
     margin-top: 5px;
 }
 .item-mainL {
   grid-area: mainL;
-  background-color:#7F9DA2;
+  background-color:#79a1a8;
   padding: 20px;
   font-size: 11px;
   margin-top: 5px;
@@ -128,7 +128,7 @@ body { background-color: #3E8989; }
 }
 .item-main1 {
   grid-area: main1;
-    background-color:#7F9DA2;
+    background-color:#79a1a8;
     padding: 20px;
     font-size: 20px;
     margin-top: 5px;
@@ -151,7 +151,7 @@ body { background-color: #3E8989; }
   .item-main {
     grid-area: main;
     padding: 20px;
-    background-color:#7F9DA2;
+    background-color:#79a1a8;
     margin-top: 5px;
     margin-left: 0px;
     margin-right: 0px;
@@ -159,7 +159,7 @@ body { background-color: #3E8989; }
   }
   .item-mainR {
     grid-area: mainR;
-    background-color:#7F9DA2;
+    background-color:#79a1a8;
     padding: 20px;
     font-size: 20px;
     margin-top: 5px;
