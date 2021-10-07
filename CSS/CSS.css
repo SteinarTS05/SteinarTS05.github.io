@@ -32,7 +32,7 @@ a {
 }
 
 a:hover {
-  background: #5E5D61;
+  background: #47b5da;
 }
 
 li div {
@@ -41,7 +41,7 @@ li div {
   height: auto;
   position: absolute;
   left: 0;
-  background: #908f92;
+  background: #408bfa;
 }
 
 li:hover div {
@@ -90,7 +90,7 @@ body { background-color: #3E8989; }
 .item-header {
     grid-area: header;
     text-align: center;
-    background-color: #667375;
+    background-color: #5d7f85;
     font-size: 35px;
     margin-top: 5px;
 }
