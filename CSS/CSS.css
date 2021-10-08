@@ -120,8 +120,8 @@ body { background-color: #3E8989; }
 .item-footer {
   grid-area: footer;
   background-color:#027575;
-  padding: 20px;
-  font-size: 15px;
+  padding: 35px;
+  font-size: 18px;
   text-align: center;
   margin-top: 5px;
 
