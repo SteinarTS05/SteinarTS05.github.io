@@ -12,6 +12,7 @@ p {
 nav {
   position: relative;
   background: #424047;
+  
 }
 
 ul {
@@ -42,6 +43,7 @@ li div {
   position: absolute;
   left: 0;
   background: #408bfa;
+  overflow: visible;
   
 }
 
