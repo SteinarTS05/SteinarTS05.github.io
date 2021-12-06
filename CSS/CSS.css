@@ -42,6 +42,7 @@ li div {
   position: absolute;
   left: 0;
   background: #408bfa;
+  
 }
 
 li:hover div {
@@ -182,4 +183,23 @@ body { background-color: #3E8989; }
       "footer footer footer footer footer footer footer footer";
       
   }
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+
+img {
+  width: 100%;
+  height: auto;
 }
