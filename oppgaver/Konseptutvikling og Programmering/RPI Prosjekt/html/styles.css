@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    background-color: rgb(97, 97, 97);
+
+}
+
+h1 {
+    background-color: rgb(51, 150, 216);
+    padding: 20px;
+}
+
+.temperatur { grid-area: temperatur; }
+.lys { grid-area: lys; }
+.fuktighet { grid-area: fuktighet; }
+.luftrykk { grid-area: lufttrykk; }
+
+.temperatur_navn { grid-area: temperatur_navn; }
+.lys_navn { grid-area: lys_navn; }
+.fuktighet_navn { grid-area: fuktighet_navn; }
+.luftrykk_navn { grid-area: lufttrykk_navn; }
+
+.temp_snitt { grid-area: temp_snitt}
+.fuktighet_snitt { grid-area: fuktighet_snitt}
+.lys_snitt { grid-area: lys_snitt}
+.lufttrykk_snitt {grid-area: lufttrykk_snitt}
+
+.temp_snitt_navn { grid-area: temp_snitt_navn}
+.fuktighet_snitt_navn { grid-area: fuktighet_snitt_navn}
+.lys_snitt_navn { grid-area: lys_snitt_navn}
+.lufttrykk_snitt_navn {grid-area: lufttrykk_snitt_navn}
+
+.footer { grid-area: footer; }
+.tilstand_na { grid-area: tilstand_na}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'tilstand_na tilstand_na tilstand_na tilstand_na'
+      'temperatur_navn fuktighet_navn lys_navn lufttrykk_navn'
+      'temperatur fuktighet lys lufttrykk'
+      'temp_snitt_navn fuktighet_snitt_navn lys_snitt_navn lufttrykk_snitt_navn'
+      'temp_snitt fuktighet_snitt lys_snitt lufttrykk_snitt'
+      'footer footer footer footer';
+    gap: 10px;
+    background-color: #337aff;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+  }
